@@ -28,7 +28,7 @@ function render() {
         h2El.setAttribute("class", "title")
         h2El.textContent = image.title
 
-        const imageEl = document.createElement("image")
+        const imageEl = document.createElement("img")
         imageEl.setAttribute("src", image.image)
         imageEl.setAttribute("class", "image")
 
